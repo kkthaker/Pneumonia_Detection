@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 # Pneumonia  Detection
 
 This repository contains code for pneumonia detection using X-ray images of the lungs. Test accuracy achieved (highest) : 96.5 %
@@ -48,8 +46,3 @@ This repository contains code for pneumonia detection using X-ray images of the 
     - Example, ```python3 CAM.py Inception "./data/abc.jpg"```
     - This will save the output as CAM_{Model_Name}.jpg in the current directory
 =======
-# Pneumonia_Detection
->>>>>>> 88d9df1ca577d9edca205ebc7e4522eceacf1189
-=======
-# Pneumonia_Detection
->>>>>>> 88d9df1ca577d9edca205ebc7e4522eceacf1189
