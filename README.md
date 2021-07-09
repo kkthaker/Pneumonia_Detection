@@ -1,5 +1,7 @@
 # Pneumonia  Detection
 
+It is well known that medical diagnosis takes more time than deciding treatment for the condition. It might require plenty of time and skills of medical practitioners. In recent times, COVID-19 spread across the globe made computer researchers work toward faster and more accurate medical diagnosis solutions for hospitals. This project uses PyTorch for implementation. The main idea is the support the Pneumonia Detection task with transfer learning technique and give more time in training rather than creating a model.
+
 This repository contains code for pneumonia detection using X-ray images of the lungs. Test accuracy achieved (highest) : 96.5 %
 
 [Link for the dataset](https://www.kaggle.com/praveengovi/coronahack-chest-xraydataset)
