@@ -19,6 +19,7 @@ This repository contains code for pneumonia detection using X-ray images of the 
     - execute `python data.py`
 - Run `main.py` to train from the dataset. For example, `python main.py --base_model {base_model} --optimizer {optimizer} --learning_rate {learning_rate} --batch_size {batch_size} --epoch {epoch} --nvidiadali --colab`
     - To change pretrained base model, give input while initializing the model object. Use values from 
+        - Keras
         - ResNet18 (Residual Networks)
         - ResNet34
         - ResNet50
