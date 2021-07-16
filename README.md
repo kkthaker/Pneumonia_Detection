@@ -19,13 +19,13 @@ This repository contains code for pneumonia detection using X-ray images of the 
     - execute `python data.py`
 - Run `main.py` to train from the dataset. For example, `python main.py --base_model {base_model} --optimizer {optimizer} --learning_rate {learning_rate} --batch_size {batch_size} --epoch {epoch} --nvidiadali --colab`
     - To change pretrained base model, give input while initializing the model object. Use values from 
-        - ResNet18 
+        - ResNet18 (Residual Networks)
         - ResNet34
         - ResNet50
         - ResNet101
         - ResNet152
         - Alexnet 
-        - VGG11
+        - VGG11 (Visual Geometry Group)
         - VGG13
         - VGG16
         - VGG19
@@ -37,8 +37,8 @@ This repository contains code for pneumonia detection using X-ray images of the 
         - Use --nvidiadali flag to use it
         - Note that NVIDIA DALI is only available for Linux
     - To change optimizers, use one of the following
-        - Adam
-        - SGD
+        - Adam (Adaptive moment optimization)
+        - SGD (Stochastic Gradient Decent)
         - RMSprop
         - Adagrad
         - Adadelta
